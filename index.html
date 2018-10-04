@@ -18,7 +18,7 @@
     </head>
     
 	<body>
-        <header class="bg-image-full" style=" background-image: url('http://s1.1zoom.me/big0/401/Drinks_Bar_Bottle_468131.jpg'); height: 15vh; min-height: 300px;">
+        <header class="bg-image-full" style=" background-image: url('assets/images/header-bg.jpg'); height: 15vh; min-height: 300px;">
             <div class="container" style="text-shadow: 0px 0px 15px #000000;">
                 <h1 class="mb-0" style="color: #eee; font-size: 48px; font-weight: 700;"><i style="color:#f39c12;" class="fas fa-bolt"></i> VOLT</h1>
                 <h3 class="mt-0"> Kalkulator opłacalności alkoholu </h3>
@@ -137,6 +137,7 @@
                                 Score = z.find("#score");
 
                             if (Price.length <= 0 || Capacity.length <= 0 || Power.length <= 0) {
+
                                 // Make row invisible
                                 if (t.is(":visible")) {
                                     t.fadeOut("slow");
